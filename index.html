@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julien Gallardo Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <!-- script dari fontawesome -->
+    <script src="https://kit.fontawesome.com/e91dec686c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+    <!--------- Section "Header" Start ---------->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assets/Add_a_heading__2_-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Interest</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- untuk icon silang -->
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <!-- tag i berfungsi untuk menambahkan icon menu yang sudah diambil dari website luar -->
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Model</p>
+                <!-- diberikan tag span untuk pemisah styling pada css -->
+                <h1>Hello people<br>I'm <span>Julien</span> Gallardo</h1>
+            </div>
+        </div>
+    </div>
+<!----x----- Section "Header" End -------x--->
+
+
+
+
+<!--------- Section "About" Start ---------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="assets/Rectangle 4.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>I am Julien Gallardo, a versatile and passionate model, ready to captivate and collaborate. With a unique blend of creativity and dedication, I invite you to explore a curated collection of my work that showcases my adaptability, style, and commitment to the craft. Throughout my career, I have had the privilege of collaborating with brands such as MANbyManikan, KURA-KURA Beer, Fender Ferd Official, and walked the runway in Jakarta for JF3 Semifinals 2023. You might also recognize me from my role in Season 2 of the TV show 'Turn On,' where I had the incredible opportunity to bring a character to life. Join me as we dive into a collection that reflects not only my past experiences but also the endless possibilities that lie ahead in the world of modeling.</p>
+
+                <div class="tab-titles">
+                    <!-- penambahan class kedua setelah tab-links berfungsi untuk membedakan elemen untuk di styling -->
+                    <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experiences')">Experiences</p>
+                    <p class="tab-links" onclick="opentab('educations')">Educations</p>
+                </div>
+                <!-- penambahan class berfungsi untuk menambahkan fungsi pada css untuk hide elemen nantinya -->
+                <div class="tab-contents tab-active" id="skills">
+                    <ul>
+                        <!-- untuk membuat list dengan isi penjelasan dibawahnya -->
+                        <!-- skill section -->
+                        <li><span>Outdoor model</span><br>I have a great skill in outdoor modeling </li>
+                        <li><span>Indoor model</span><br>I have a great skill in indoor modeling </li>
+                        <li><span>Gym Partner</span><br>I also have a great skill in body building and great knowladge of gym </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experiences">
+                    <ul>
+                        <!-- Experiences section -->
+                        <li><span>Part of TRAP Models and Talent Management</span><br>I had the opportunity to be one of the model of TRAP Model and Talent Management.</li>
+                        <li><span>Model of Local Photograph</span><br>I had the opportunity to be the Main Model of freelance local Photographer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="educations">
+                    <ul>
+                        <!-- Educations section -->
+                        <li><span>2017-2020</span><br>Bali Hati International Junior High School</li>
+                        <li><span>2020-2023</span><br>Bali Hati International Senior High School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------x--- Section "About" End ---x------->
+
+
+
+
+<!--------- Section "Services" Start ---------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Interest</h1>
+        <div class="services-list">
+            <div>
+                <!-- untuk icon dari fontawesome -->
+                <i class="fa-solid fa-dumbbell"></i>
+                <h2>Gym</h2>
+                <p>I am someone who has a strong interest in the gym and physical fitness. I'm drawn to the gym's environment, where I can engage in various exercises to improve my strength, endurance, and overall health. I find the assortment of exercise equipment, from weights to cardio machines, intriguing and motivating. Regularly visiting the gym allows me to challenge myself, set fitness goals, and work towards achieving them. Whether I'm lifting weights, doing cardio workouts, or participating in group classes, the gym provides me with the space and resources to stay active and feel accomplished.</p>
+                <a href="https://en.wikipedia.org/wiki/Gym">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-person-rays"></i>
+                <h2>Modelling</h2>
+                <p>Modelling is a world that captivates me with its fusion of style and self-expression. I'm fascinated by the art of showcasing different looks and conveying messages through poses and expressions. Whether it's striking a confident stance on the runway or capturing a particular mood in a photoshoot, modeling offers a unique way to communicate and inspire. I take pride in my ability to adapt to different styles and portray the essence of the clothing or products I'm representing. The opportunity to collaborate with photographers, designers, and makeup artists to create captivating visuals is something that truly excites me.</p>
+                <a href="https://en.wikipedia.org/wiki/Model_(person)">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-heart-pulse"></i>
+                <h2>Fitness</h2>
+                <p>My passion for fitness is rooted in my dedication to maintaining a healthy and active lifestyle. I believe that fitness is not just about appearance but also about overall well-being. I enjoy engaging in a variety of physical activities, such as running, swimming, and yoga, to keep my body strong and flexible. Eating nutritious foods and staying hydrated are essential parts of my routine, ensuring that I have the energy to take on challenges and make the most of each day. I view fitness as a journey that involves continuous learning and improvement, and I find joy in discovering new ways to keep my body and mind in top shape.</p>
+                <a href="https://en.wikipedia.org/wiki/Fitness">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------x--- Section "Services" End ---x------->
+
+
+
+
+
+<!--------- Section "Portfolio" Start ---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="assets/1.png">
+            </div>
+            <div class="work">
+                <img src="assets/2.png">
+            </div>
+            <div class="work">
+                <img src="assets/3.png">
+            </div>
+            <div class="work">
+                <img src="assets/4.png">
+            </div>
+            <div class="work">
+                <img src="assets/5.png">
+            </div>
+            <div class="work">
+                <img src="assets/6.png">
+            </div>
+        </div>
+        <a href="https://www.instagram.com/p/CvEIH4gpTbQ/?img_index=1" class="btn">Coming Soon</a>
+    </div>
+</div>
+<!-----x---- Section "Portfolio" End ----x------>
+
+
+
+
+<!--------- Section "Contact" Start ---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> julien.g.4xa@gmail.com</p>
+                <p> <i class="fa-solid fa-square-phone"></i> +62-877-5776-0906</p>
+                <div class="social-icons">
+                    
+                    <a href="https://www.instagram.com/julien.g.xx/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@julien_gallardo"><i class="fa-brands fa-tiktok"></i></a>
+                    
+                    
+                </div>
+               
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your E-Mail" required>
+                    <textarea name="Message" rows="6" placeholder="Input Your Text"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyritht ©  Designed by Gandhi Suastika</p>
+        </div>
+    </div>
+</div>
+<!-----x---- Section "Portfolio" End ----x------>
+
+
+
+
+<!------------Java Script "Nav-Menu" Start ---------------->
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<!--------x---Java Script "Nav-Menu" End ---x------------->
+
+
+
+
+<!------------Java Script "About" Start ---------------->
+<script>
+    // script ini berfungsi untuk memberikan interaksi pada user dengan about section
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-links");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("tab-active");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("tab-active");
+    }
+</script>
+<!--------x---Java Script "About" End ---x------------->
+
+
+
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzP6L_m76JqW8EH6maYn3HJjN78LvsrR180eM-oXetPu5p5e3O5_62IvTTH1AqIbi90Lw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Submited"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
